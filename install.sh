@@ -97,13 +97,7 @@ while true; do
 	if [ -d "$folder" ]; then
 		break;
 	else
-		read -r -p "Do you want to create the folder $folder? [y/n] " response
-		if [[ "$response" =~ ^([yY][eE][sS]|[yY])+$ ]]; then
-			mkdir -p "$folder";
-			break
-		else
-			echo "Please provide an existing path!"
-		fi
+		echo "Please provide an existing path!"
 	fi
 done
 cd $folder
