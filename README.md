@@ -32,7 +32,7 @@ Most common missing packages are
 * glibc-devel
 * libicu
 
-For more information about the needed packages can be found [here](http://scisoft.fnal.gov/scisoft/bundles/tools/checkPrerequisites).
+More information about the needed packages can be found [here](http://scisoft.fnal.gov/scisoft/bundles/tools/checkPrerequisites).
 
 ### Tips
 
